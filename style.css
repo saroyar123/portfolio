@@ -17,6 +17,7 @@ html {
 
 p {
   color: rgb(85, 85, 85);
+  
 }
 
 /* TRANSITION */
@@ -150,8 +151,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
-  margin: 0 10rem;
+  margin:5rem 10rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -337,6 +337,16 @@ section {
   flex-direction: column;
 }
 
+.experience_details{
+  margin-bottom: 20px;
+}
+
+.experience_details p{
+  font-size: 16px;
+  line-height: 1.5; 
+  text-align: justify;
+}
+
 .article-container {
   display: flex;
   text-align: initial;
@@ -357,10 +367,32 @@ article .icon {
   cursor: default;
 }
 
+/* data structure */
+.data_structure{
+  /* border: 1px solid blue; */
+  width: 60%;
+  margin: auto;
+}
+
+.data_structure p{
+  font-size: 16px;
+  line-height: 1.5; 
+  text-align: justify;
+}
+
+.coding_profile_title{
+ padding: 5px;
+}
+
+.data_structure a{
+  padding: 10px;
+}
+
 /* PROJECTS SECTION */
 
 #projects {
   position: relative;
+  /* border: 1px solid red; */
 }
 
 .color-container {
